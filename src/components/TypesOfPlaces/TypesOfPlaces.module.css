@@ -1,0 +1,49 @@
+.mainContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  position: relative;
+  width: 28vw;
+  height: 24vw;
+  margin: 2vw 2.4vw auto 2.4vw;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.1s ease;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border: 4px solid wheat;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  /* background-color: #04aa6d; */
+  color: #4d7186;
+  font-size: 4vw;
+  padding: 16px 32px;
+  font-family: '"Merienda"';
+}

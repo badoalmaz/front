@@ -1,0 +1,15 @@
+.form {
+  width: 40vw;
+  align-self: center;
+  border: 2px solid wheat;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 3.5vw;
+  background-color: #4d7186;
+  color: wheat;
+}
+
+.input {
+  background-color: wheat;
+  color: #4d7186;
+}

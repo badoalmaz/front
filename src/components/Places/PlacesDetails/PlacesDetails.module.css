@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+  background-color: #4d7186;
+  border-radius: 10px;
+  /* text-align: center; */
+  padding: 10px;
+  min-width: 40vw;
+  height: 37.5vw;
+  color: wheat;
+  border: 3px solid wheat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttons button {
+  width: 10vw;
+  margin: 2vw 2vw;
+}
+
+.image img {
+  width: 50vw;
+  border-radius: 10px;
+  margin: 2vw;
+  border: 3px solid wheat;
+}
+
+.dark {
+  color: #081b2e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.comments {
+  margin: 20px;
+  background-color: #4d7186;
+  border: 3px solid wheat;
+  min-height: 90vh;
+  border-radius: 10px;
+}

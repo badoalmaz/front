@@ -1,0 +1,66 @@
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -2px;
+  position: relative;
+  background-color: wheat;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid wheat;
+}
+
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -2px;
+  position: relative;
+  background-color: #4d7186;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid wheat;
+}
+
+label {
+  margin: 0.5vw;
+}
+
+.control {
+  margin-left: 1vw;
+}
+
+.search {
+  margin-left: 2.5vw;
+  display: flex;
+}
+
+.radio {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 13vw;
+  border-radius: 10px;
+  background-color: #4d7186;
+  padding-left: 1vw;
+  font-size: medium;
+  color: wheat;
+  border: 2px solid wheat;
+}
+
+.favorite {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 3.5vw;
+  border-radius: 10px;
+  background-color: wheat;
+  padding-left: 1vw;
+  font-size: medium;
+  color: #4d7186;
+  border: 2px solid #4d7186;
+  /* font-size: 20p; */
+  font-family: '"Merienda"';
+}
